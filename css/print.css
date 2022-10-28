@@ -1,0 +1,93 @@
+.content {
+	padding-top:10px;
+}
+#tooltip {
+	display:none;
+}
+#selector {
+	display:none;
+}
+
+#navbar {
+	display:none;
+}
+
+#release {
+	display:none;
+}
+
+#footer {
+	display:none;
+}
+
+#content {
+	padding:10px;
+}
+.batchreporttable td, .inlineclass td, .records td, .recordssmall td, .batchreporttable th, .inlineclass th, .records th, .recordssmall th, .overviewtable th, .overviewtable td {
+	border:1px solid;
+	padding:5px;
+}
+
+table.tablesorter tbody tr {
+	display:table-row !important;
+}
+
+table.tablesorter tfoot {
+	display:none;
+}
+
+#reportlivesearch, 
+#processtrentcont, 
+.inlineclass, 
+#oeegroup, 
+#oeeauto, 
+.ui-widget-content, 
+div.sceditor-dropdown,
+.tablesorter-row-hider,
+div.sceditor-dropdown input,
+div.sceditor-dropdown textarea,
+div.sceditor-dropdown .button,
+.sceditor-pastetext textarea,
+.sceditor-color-option:hover,
+.sceditor-more,
+#tasks,
+div.sceditor-toolbar,
+div.sceditor-group,
+blockquote cite,
+#recordswap ul,
+.sceditor-container,
+.sceditor-color-option,
+.ui-widget-header,
+.mail-message,
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default,
+.ui-slider,
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-highlight,
+.ui-widget-content .ui-state-highlight,
+.ui-widget-header .ui-state-highlight,
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus,
+#features, 
+#minipiecontainer, 
+.createform, 
+#changepassword, 
+div.votes, 
+#tagdescription, 
+.trenddetails, 
+#trendhint, 
+blockquote, 
+code, 
+#savebar, 
+.wmo, 
+.comment, 
+#mailbar {
+	border: 0px;
+}

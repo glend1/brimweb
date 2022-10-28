@@ -1,0 +1,528 @@
+.style {
+	padding:10px;
+	margin:15px;
+	height:90px;
+	width:90px;
+	float:left;
+	border:5px solid;
+}
+
+.stylez {
+	padding:10px;
+	margin:15px;
+	float:left;
+	width:175px;
+}
+
+
+
+::selection {
+	background:#49b300;
+	color:#e6f1ff;
+}
+
+::-moz-selection {
+	background:#49b300;
+	color:#e6f1ff;
+}
+
+/*blacks and whites */
+
+.style1,
+.inboxsize span,
+.sceditor-fontsize-option,
+.sceditor-font-option,
+.sceditor-format a,
+div.sceditor-dropdown a,
+div.sceditor-dropdown a:link,
+div.sceditor-dropdown,
+div.sceditor-dropdown label,
+.sceditor-container iframe,
+.sceditor-container textarea,
+.sceditor-container,
+.ui-widget-content, .ui-widget-content a, body, .flot-tick-label, .legendLabel, #pielabelcontainer td, .label, #navbar a:hover, input[type="submit"]:hover, input[type="button"]:hover, input[type="reset"]:hover, button:hover, input[type="text"], input[type="password"], select, option, textarea /*, .content a span*/ {
+	color:#00204d;
+}
+
+.style2, 
+td.ui-datepicker-today a.ui-state-default,
+a:hover .inboxsize span,
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default,
+.ui-state-default a,
+.ui-state-default a:link,
+.ui-state-default a:visited,
+.ui-widget-content .ui-state-error,
+.ui-widget-header .ui-state-error,
+.ui-state-error a,
+.ui-widget-content .ui-state-error a,
+.ui-widget-header .ui-state-error a, .ui-state-error-text,
+.ui-widget-content .ui-state-error-text,
+.ui-widget-header .ui-state-error-text,
+/*commented out to fix autocomplete
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus,
+.ui-state-focus a,
+.ui-state-focus a:link,
+.ui-state-focus a:visited,*/
+#release, 
+#shifter, 
+#datetimepicker, 
+#navbar ul.navigation, 
+#subnav,
+#downloadmenu, 
+#help, 
+#login-form, 
+#bug, 
+#search, 
+#navbar a, 
+.records th,
+#toggle-alarm-comments,
+.overviewtable th, 
+.tableheader, 
+.recordssmall th, 
+#search a, 
+.ui-notif-active, 
+.ui-notif-error, 
+input[type="submit"], 
+input[type="button"], 
+input[type="reset"], 
+button,
+input[type="submit"].disabled:hover,
+input[type="button"].disabled:hover,
+input[type="reset"].disabled:hover,
+button.disabled:hover {
+	color:#e6f1ff;
+}
+	
+.style3, 
+ul.ui-autocomplete li.ui-menu-item,
+div.evenRow th,
+div.oddRow th,
+.ui-state-hover,
+td.ui-datepicker-today a.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-hover a,
+.ui-state-hover a:link,
+.ui-state-hover a:visited,
+.ui-state-active,
+td.ui-datepicker-today a.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+.ui-state-active a,
+.ui-state-active a:link,
+.ui-state-active a:visited,
+.ui-state-highlight,
+.ui-widget-content .ui-state-highlight,
+.ui-widget-header .ui-state-highlight,
+.ui-state-highlight a,
+.ui-state-highlight a:link,
+.ui-state-highlight a:visited {
+	color:#00204d;
+}
+
+.style4, .sceditor-container, #mainlegend,
+.content, div.evenRow tr *, div.oddRow tr *, #processtrentcont {
+	background-color:#FFFFFF;
+}
+
+/*text color*/
+
+.style5, #navbar a.selected, #subnav a, #downloadmenu a, #recordswap ul li a, #notifications a {
+	color:#99ffd5;
+}
+
+.style6, #navbar a.selected:hover, #navbar a.menucontext.selected:hover {
+	color:#00204d;
+}
+
+.style7, #navbar a.menucontext.selected {
+	color:#99c3ff;
+}
+
+.style8, a, .content a span, .records .vote a span, .records .wmoid a span {
+	color:#00804b;
+}
+
+.style9, #help a, #login-form a, #recordswap ul li span {
+	color:#eaccff;
+}
+
+.style10, li a .icon-trash, .controlpanelheader, .ajax-records, .records a span, #resetcontainer a, a span.icon-caret-right, a span.icon-caret-down, .tageditcell a span, a.listheader, #trendhint a, a.table-row-button span {
+	color:#4b0080;
+}
+
+/*background color*/
+
+.style11, #navbar div, ul.navigation {
+	background: #00204d;
+	background: -moz-linear-gradient(top, #00204d 0%, #004ab3 50%, #00204d 51%, #000a1a 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, #00204d), color-stop(50%, #004ab3), color-stop(51%, #00204d), color-stop(100%, #000a1a));
+	background: -webkit-linear-gradient(top, #00204d 0%, #004ab3 50%, #00204d 51%, #000a1a 100%);
+	background: -o-linear-gradient(top, #00204d 0%, #004ab3 50%, #00204d 51%, #000a1a 100%);
+	background: -ms-linear-gradient(top, #00204d 0%, #004ab3 50%, #00204d 51%, #000a1a 100%);
+	background: linear-gradient(to bottom, #00204d 0%, #004ab3 50%, #00204d 51%, #000a1a 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00204d', endColorstr='#000a1a', GradientType=0 );
+}
+
+#navbar #removelist {
+	background: #4d0020;
+	background: -moz-linear-gradient(top, #4d0020 0%, #b30049 50%, #4d0020 51%, #1a000a 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, #4d0020), color-stop(50%, #b30049), color-stop(51%, #4d0020), color-stop(100%, #1a000a));
+	background: -webkit-linear-gradient(top, #4d0020 0%, #b30049 50%, #4d0020 51%, #1a000a 100%);
+	background: -o-linear-gradient(top, #4d0020 0%, #b30049 50%, #4d0020 51%, #1a000a 100%);
+	background: -ms-linear-gradient(top, #4d0020 0%, #b30049 50%, #4d0020 51%, #1a000a 100%);
+	background: linear-gradient(to bottom, #4d0020 0%, #b30049 50%, #4d0020 51%, #1a000a 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d0020', endColorstr='#1a000a', GradientType=0 );
+}
+
+.style12, #navbar ul.navigation, input[type="reset"] {
+	background: #2d004d;
+	background: -moz-linear-gradient(top, #2d004d 0%, #6900b3 50%, #2d004d 51%, #10001a 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, #2d004d), color-stop(50%, #6900b3), color-stop(51%, #2d004d), color-stop(100%, #10001a));
+	background: -webkit-linear-gradient(top, #2d004d 0%, #6900b3 50%, #2d004d 51%, #10001a 100%);
+	background: -o-linear-gradient(top, #2d004d 0%, #6900b3 50%, #2d004d 51%, #10001a 100%);
+	background: -ms-linear-gradient(top, #2d004d 0%, #6900b3 50%, #2d004d 51%, #10001a 100%);
+	background: linear-gradient(to bottom, #2d004d 0%, #6900b3 50%, #2d004d 51%, #10001a 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2d004d', endColorstr='#10001a', GradientType=0 );
+}
+
+.style13, #datetimepicker, #subnav, #downloadmenu, #help, #search, #bug, #login-form {
+	background: #3c0066;
+	background: -moz-linear-gradient(top, #3c0066 0%, #3c0066 50%, #3c0066 51%, #10001a 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, #3c0066), color-stop(50%, #3c0066), color-stop(51%, #3c0066), color-stop(100%, #99ffd5));
+	background: -webkit-linear-gradient(top, #3c0066 0%, #3c0066 50%, #3c0066 51%, #10001a 100%);
+	background: -o-linear-gradient(top, #3c0066 0%, #3c0066 50%, #3c0066 51%, #10001a 100%);
+	background: -ms-linear-gradient(top, #3c0066 0%, #3c0066 50%, #3c0066 51%, #10001a 100%);
+	background: linear-gradient(to bottom, #3c0066 0%, #3c0066 50%, #3c0066 51%, #10001a 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3c0066', endColorstr='#10001a', GradientType=0 );	
+}
+
+.style14, #navbar a:hover {
+	background: #cce1ff;
+	background: -moz-linear-gradient(top, #cce1ff 0%, #e6f1ff 50%, #cce1ff 51%, #99c3ff 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, #cce1ff), color-stop(50%, #e6f1ff), color-stop(51%, #cce1ff), color-stop(100%, #99c3ff));
+	background: -webkit-linear-gradient(top, #cce1ff 0%, #e6f1ff 50%, #cce1ff 51%, #99c3ff 100%);
+	background: -o-linear-gradient(top, #cce1ff 0%, #e6f1ff 50%, #cce1ff 51%, #99c3ff 100%);
+	background: -ms-linear-gradient(top, #cce1ff 0%, #e6f1ff 50%, #cce1ff 51%, #99c3ff 100%);
+	background: linear-gradient(to bottom, #cce1ff 0%, #e6f1ff 50%, #cce1ff 51%, #99c3ff 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cce1ff', endColorstr='#99c3ff', GradientType=0 );
+}
+
+.style15, #navbar .navigation a:hover, input[type="reset"]:hover {
+	background: #eaccff;
+	background: -moz-linear-gradient(top, #eaccff 0%, #f4e6ff 50%, #eaccff 51%, #d599ff 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, #eaccff), color-stop(50%, #f4e6ff), color-stop(51%, #eaccff), color-stop(100%, #d599ff));
+	background: -webkit-linear-gradient(top, #eaccff 0%, #f4e6ff 50%, #eaccff 51%, #d599ff 100%);
+	background: -o-linear-gradient(top, #eaccff 0%, #f4e6ff 50%, #eaccff 51%, #d599ff 100%);
+	background: -ms-linear-gradient(top, #eaccff 0%, #f4e6ff 50%, #eaccff 51%, #d599ff 100%);
+	background: linear-gradient(to bottom, #eaccff 0%, #f4e6ff 50%, #eaccff 51%, #d599ff 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaccff', endColorstr='#d599ff', GradientType=0 );
+}
+
+.style16, .menucontext, input[type="submit"], input[type="button"], button,
+input[type="submit"].disabled:hover, input[type="button"].disabled:hover, input[type="reset"].disabled:hover, button.disabled:hover {
+	background: #004d2d;
+	background: -moz-linear-gradient(top, #004d2d 0%, #00b369 50%, #004d2d 51%, #001a10 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, #004d2d), color-stop(50%, #00b369), color-stop(51%, #004d2d), color-stop(100%, #001a10));
+	background: -webkit-linear-gradient(top, #004d2d 0%, #00b369 50%, #004d2d 51%, #001a10 100%);
+	background: -o-linear-gradient(top, #004d2d 0%, #00b369 50%, #004d2d 51%, #001a10 100%);
+	background: -ms-linear-gradient(top, #004d2d 0%, #00b369 50%, #004d2d 51%, #001a10 100%);
+	background: linear-gradient(to bottom, #004d2d 0%, #00b369 50%, #004d2d 51%, #001a10 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004d2d', endColorstr='#001a10', GradientType=0 );
+}
+
+.style17, #navbar .menucontext:hover, input[type="submit"]:hover, input[type="button"]:hover, button:hover {
+	background: #ccffea;
+	background: -moz-linear-gradient(top, #ccffea 0%, #e6fff4 50%, #ccffea 51%, #99ffd5 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, #ccffea), color-stop(50%, #e6fff4), color-stop(51%, #ccffea), color-stop(100%, #99ffd5));
+	background: -webkit-linear-gradient(top, #ccffea 0%, #e6fff4 50%, #ccffea 51%, #99ffd5 100%);
+	background: -o-linear-gradient(top, #ccffea 0%, #e6fff4 50%, #ccffea 51%, #99ffd5 100%);
+	background: -ms-linear-gradient(top, #ccffea 0%, #e6fff4 50%, #ccffea 51%, #99ffd5 100%);
+	background: linear-gradient(to bottom, #ccffea 0%, #e6fff4 50%, #ccffea 51%, #99ffd5 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccffea', endColorstr='#99ffd5', GradientType=0 );	
+}
+
+.style18, #tooltip {
+	background: #f4e6ff;
+	background: -moz-linear-gradient(top, #f4e6ff 0%, #f4e6ff 50%, #f4e6ff 51%, #d599ff 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, #f4e6ff), color-stop(50%, #f4e6ff), color-stop(51%, #f4e6ff), color-stop(100%, #99ffd5));
+	background: -webkit-linear-gradient(top, #f4e6ff 0%, #f4e6ff 50%, #f4e6ff 51%, #d599ff 100%);
+	background: -o-linear-gradient(top, #f4e6ff 0%, #f4e6ff 50%, #f4e6ff 51%, #d599ff 100%);
+	background: -ms-linear-gradient(top, #f4e6ff 0%, #f4e6ff 50%, #f4e6ff 51%, #d599ff 100%);
+	background: linear-gradient(to bottom, #f4e6ff 0%, #f4e6ff 50%, #f4e6ff 51%, #d599ff 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4e6ff', endColorstr='#d599ff', GradientType=0 );	
+}
+
+.style19, body {
+	background: #e6f1ff;
+	background: -moz-linear-gradient(left, #e6f1ff 0%, #cce1ff 50%, #e6f1ff 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, #e6f1ff), color-stop(50%, #cce1ff), color-stop(100%, #e6f1ff));
+	background: -webkit-linear-gradient(left, #e6f1ff 0%, #cce1ff 50%, #e6f1ff 100%);
+	background: -o-linear-gradient(left, #e6f1ff 0%, #cce1ff 50%, #e6f1ff 100%);
+	background: -ms-linear-gradient(left, #e6f1ff 0%, #cce1ff 50%, #e6f1ff 100%);
+	background: linear-gradient(to right, #e6f1ff 0%, #cce1ff 50%, #e6f1ff 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6f1ff', endColorstr='#e6f1ff', GradientType=1 );
+}
+
+.style20, code, .soaptask, #savebar, #bar-settings, #oeeauto, #tasks { /*update jquery.sceditor.default.min.css*/
+    background: #eaccff;
+}
+
+.style21, code, .soaptask, #savebar, #bar-settings, #oeeauto, #tooltip, #tasks { /*update jquery.sceditor.default.min.css*/
+    border-color: #6900b3;
+}
+
+.style22, #trendcolor1 {
+	background-color:#004ab3;
+}
+
+.style23, #trendcolor2 {
+	background-color:#49b300;
+}
+
+.style24, #trendcolor3 {
+	background-color:#b30049;
+}
+
+.style25, #trendcolor4 {
+	background-color:#b36900;
+}
+
+.style26, #trendcolor5 {
+	background-color:#00b369;
+}
+
+.style27, #trendcolor6 {
+	background-color:#6900b3;
+}
+
+.style28, #trendcrosshair  {
+	background-color:#004d2d;
+}
+
+.style29, #release, .ui-notif-active, #shifter.shiftactive {
+	background: #00663c;
+	background: -moz-linear-gradient(top, #00663c 0%, #00663c 50%, #00663c 51%, #001a10 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, #00663c), color-stop(50%, #00663c), color-stop(51%, #00663c), color-stop(100%, #99ffd5));
+	background: -webkit-linear-gradient(top, #00663c 0%, #00663c 50%, #00663c 51%, #001a10 100%);
+	background: -o-linear-gradient(top, #00663c 0%, #00663c 50%, #00663c 51%, #001a10 100%);
+	background: -ms-linear-gradient(top, #00663c 0%, #00663c 50%, #00663c 51%, #001a10 100%);
+	background: linear-gradient(to bottom, #00663c 0%, #00663c 50%, #00663c 51%, #001a10 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00663c', endColorstr='#001a10', GradientType=0 );	
+}
+
+.style30, .inboxsize span {
+	background-color: #99ffd5;
+}
+
+/*border color*/
+
+.style31, #recordswap ul {
+    border-color:#00204d;
+}
+
+.style32, input[type="submit"], input[type="button"], button,
+input[type="submit"].disabled:hover, input[type="button"].disabled:hover, input[type="reset"].disabled:hover, button.disabled:hover {
+	border-color:#004d2d;
+}
+
+.style33, input[type="submit"]:hover, input[type="button"]:hover, button:hover {
+	color:#004d2d;
+}
+
+.style34, input[type="reset"] {
+	border-color:#2d004d;
+}
+
+.style35, input[type="reset"]:hover {
+	color:#2d004d;
+}
+
+/*jquery ui*/
+
+/*.divpages div div, .divpages div, .records th, .records td, .overviewtable th, .overviewtable td, .recordssmall th, .recordssmall td*/
+.style36, .tablesorter-row-hider,
+.sceditor-container,
+.sceditor-color-option,
+div.sceditor-dropdown,
+div.sceditor-dropdown input,
+div.sceditor-dropdown textarea,
+div.sceditor-dropdown .button,
+.sceditor-pastetext textarea,
+.sceditor-color-option:hover,
+div.sceditor-toolbar,
+div.sceditor-group,
+.sceditor-more,
+.ui-widget-content {
+    border-color:#99c3ff;
+}
+
+.style37, .ui-widget-header,
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default,
+.ui-slider,
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-highlight,
+.ui-widget-content .ui-state-highlight,
+.ui-widget-header .ui-state-highlight,
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus {
+	border-color:#002a66;
+}
+
+.style38, a:hover .inboxsize span, .records th, .overviewtable th, table td.tableheader, .recordssmall th, #recordswap ul li, td.ui-datepicker-today a.ui-state-highlight,
+.ui-widget-header,
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default,
+div.sceditor-toolbar {
+	background-color: #00204d;
+}
+
+.style39, #markings, .divpages div:nth-child(odd), .oddRow td, div.oddRow, form.oddRow, .tageditcell li:nth-child(odd), .tagnameclass li:nth-child(odd), .inlineclass,
+.reportscal td,
+.ui-widget-content,
+div.sceditor-dropdown .button,
+div.sceditor-dropdown .button:hover,
+.sceditor-dropdown a:hover,
+div.sceditor-group,
+div.sceditor-dropdown,
+.tablesorter-row-hider  {
+	background-color:#e6f1ff;
+}
+
+.style40,
+.cal td, 
+.reportscal div, 
+.ie6 div.sceditor-resize-cover,
+.ie7 div.sceditor-resize-cover,
+.ie8 div.sceditor-resize-cover,
+.ui-slider,
+.ui-state-active,
+td.ui-datepicker-today a.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus,
+.trend-button.active,
+.sceditor-button.active,
+.divpages, .divpages div:nth-child(even), .evenRow td, div.evenRow, form.evenRow, .tageditcell li:nth-child(even), .tagnameclass li:nth-child(even) {
+	background-color:#cce1ff;
+}
+
+.style41, #features, #minipiecontainer, .createform, #changepassword, div.votes, #tagdescription, .trenddetails, #trendhint,
+ blockquote, #oeegroup, #mailbar, .mail-message, #reportlivesearch /*update jquery.sceditor.default.min.css*/ {
+	background-color:#ccffea;
+}
+
+.style42, #features, #minipiecontainer, .createform, #changepassword, div.votes, 
+#tagdescription, .trenddetails, #trendhint, blockquote, #oeegroup, blockquote, blockquote cite, #mailbar, .mail-message, #reportlivesearch { /*update jquery.sceditor.default.min.css*/
+	border-color:#00b369;
+}
+	
+.style43,
+.cal td:hover:not(.nocell), 
+.cal td.today, 
+.cal tr .week:hover ~ td:not(.nocell), 
+.cal thead:hover + tbody td:not(.nocell),
+td.week,
+.ui-state-hover,
+td.ui-datepicker-today a.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-widget-content .ui-state-highlight,
+.ui-widget-header .ui-state-highlight,
+.trend-button:hover,
+.trend-button:active,
+.sceditor-button:hover,
+.sceditor-button:active {
+	background: #b2d2ff;
+}
+
+.style44, #trendselection,
+.ui-state-error,
+.ui-widget-content .ui-state-error,
+.ui-widget-header .ui-state-error {
+	background-color:#ffcce1;
+}
+
+.style45, #shifter, .ui-notif-error {
+	background: #66002a;
+	background: -moz-linear-gradient(top, #66002a 0%, #66002a 50%, #66002a 51%, #1a000a 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, #66002a), color-stop(50%, #66002a), color-stop(51%, #66002a), color-stop(100%, #99ffd5));
+	background: -webkit-linear-gradient(top, #66002a 0%, #66002a 50%, #66002a 51%, #1a000a 100%);
+	background: -o-linear-gradient(top, #66002a 0%, #66002a 50%, #66002a 51%, #1a000a 100%);
+	background: -ms-linear-gradient(top, #66002a 0%, #66002a 50%, #66002a 51%, #1a000a 100%);
+	background: linear-gradient(to bottom, #66002a 0%, #66002a 50%, #66002a 51%, #1a000a 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66002a', endColorstr='#1a000a', GradientType=0 );	
+}
+
+.style46, #processtrentcont {
+	border-color: #99c3ff;
+}
+
+.style47, .inlineclass, .wmo, .comment {
+	border-color:#004ab3;
+}
+
+.style48, .tablesorter-default tfoot td, .tablesorter-filter-row td {
+	background:#eaccff;
+}
+
+/*sc editor*/
+
+/*.ui-state-error-text {
+	color:#e6f1ff;
+}
+
+.ui-state-disabled {
+	color:#e6f1ff;
+}
+
+.trend-button.disabled:hover {
+    background: inherit;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}*/
+
+/*print color*/
+
+@media print {
+	.batchreporttable td, .inlineclass td, .records td, .recordssmall td, .batchreporttable th, .inlineclass th, .records th, .recordssmall th, .overviewtable th, .overviewtable td {
+		border-color:#000000;
+	}
+}
+
+/* header */
+
+.tablesorter-default .tablesorter-headerRow .header,
+.tablesorter-default .tablesorter-headerRow .tablesorter-header {
+	background-image: url(../images/white-unsorted2.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	padding-right:21px;
+	cursor: pointer;
+}
+.tablesorter-default .tablesorter-headerRow .headerSortUp,
+.tablesorter-default .tablesorter-headerRow .tablesorter-headerSortUp,
+.tablesorter-default .tablesorter-headerRow .tablesorter-headerAsc {
+	background-image: url(../images/white-asc2.gif);
+}
+.tablesorter-default .tablesorter-headerRow .headerSortDown,
+.tablesorter-default .tablesorter-headerRow .tablesorter-headerSortDown,
+.tablesorter-default .tablesorter-headerRow .tablesorter-headerDesc {
+	background-image: url(../images/white-desc2.gif);
+}

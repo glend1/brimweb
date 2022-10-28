@@ -1,0 +1,1570 @@
+table, td {
+	border:none;
+}
+
+#datetimepicker, #help, #search, #subnav, #downloadmenu, #login-form, td, th, .content, .content div, #notifications div, .soaptask, #tooltip, #ui-datepicker-div, .ui-datepicker-inline, .content form, #bug, .tageditcell li, .tagnameclass li, #currenttags input, #currenttags select, #savebar, #trendhint, .sceditor-button, .trend-button, .sceditor-container, div.sceditor-dropdown, div.sceditor-dropdown input, div.sceditor-dropdown textarea, div.sceditor-dropdown .button, div.sceditor-toolbar, div.sceditor-group, code, blockquote, blockquote cite, #recordswap li, #recordswap ul, input[type="submit"], input[type="button"], input[type="reset"], button, #ui-datepicker-div div, .ui-datepicker-inline div, #ui-datepicker-div td, .ui-datepicker-inline td, #ui-datepicker-div a, .ui-datepicker-inline a, #ui-datepicker-div span, .ui-datepicker-inline span, .inboxsize span, #mailbar, .mail-message {
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+}
+
+.forcesingleline {
+	width:220px;
+	white-space:nowrap;
+}
+
+#removelist li {
+	position:relative;
+	left:-9999px;
+}
+.hiddenobject{
+	display:none;
+}
+#reportviewer {
+	width:100%;
+	height:1300px;
+}
+
+#definereport {
+	width:161px;
+	padding-top:10px;
+}
+
+.mail-message {
+	padding:5px;
+	margin:5px;
+}
+
+.indent {
+	margin:0px 2em;
+}
+
+.soaptask {
+	padding: 3px;
+	margin-bottom: 1em;
+}
+
+#reportlivesearch {
+    border:1px solid;
+    margin: 10px 0px;
+    padding: 10px;
+}
+
+#reportlivesearch h3 {
+    margin: 0px;
+    padding: 0px 0px 10px;
+}
+
+#reportlivesearch input {
+	width:99%;
+}
+
+.basic {
+	line-height:initial;
+	padding:5px;
+	margin:0px;
+	width:400px;
+	height:200px;
+}
+
+#reportcalhidden {
+	display:none;
+}
+
+#reportcalform {
+	line-height:35px;
+	list-style:none;
+}
+
+#reportcalform ul {
+	list-style:none;
+}
+
+input[type="submit"], input[type="button"], input[type="reset"], button {
+	border:1px solid;
+	padding:5px 15px;
+	font-weight:bold;
+}
+
+input[type="radio"], input[type="radio"], input[type="checkbox"], input[type="checkbox"] {
+	margin-right:2px;
+}
+
+input[type="radio"] + label, input[type="checkbox"] + label {
+	margin-right:20px;
+}
+
+input[type="submit"].disabled, input[type="button"].disabled, input[type="reset"].disabled, button.disabled, [disabled], [disabled] + label {
+	opacity: .35;
+	filter:Alpha(Opacity=35);
+	cursor:default;
+}
+
+.bug-notif {
+	margin:5px 0px;
+}
+
+#bug .subscribe-button label {
+	display:inline;
+}
+
+.subscribe-button {
+	float:right;
+	font-weight:normal;
+}
+
+table.tablesorter-default .tablesorter-headerRow .sorter-false, table.tablesorter-default .tablesorter-headerRow .sorter-false {
+	background-image: none;
+	padding: 4px;
+	cursor: default;
+}
+
+#mailbar {
+	float:right;
+	padding:10px;
+}
+
+#mailbar a {
+	padding:0px 5px;
+}
+
+.table-pager {
+	text-align:center;
+}
+
+.page-left {
+	float:left;
+}
+
+.page-right {
+	float:right;
+}
+
+#navbar div, .tablesorter-row-hider, ul.navigation, #datetimepicker, #navbar ul.navigation, #subnav, #downloadmenu, #help, #login-form #search, #bug, #tooltip, #release, #shifter, #notifications div, #ui-datepicker-div,
+div.sceditor-dropdown {
+	box-shadow:0px 2px 5px 0px #000000;
+	-webkit-box-shadow:0px 2px 5px 0px #000000;
+	-moz-box-shadow:0px 2px 5px 0px #000000;
+}
+
+table.tablesorter tfoot td.tablesorter-pager {
+	display:table-cell;
+}
+
+.tablesorter-filter-row td {
+	text-align:center;
+}
+
+code:before { /*update jquery.sceditor.default.min.css*/
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    content: 'Code:';
+    top: -1.35em;
+    left: 0
+}
+code { /*update jquery.sceditor.default.min.css*/
+    margin-top: 1.5em;
+    position: relative;
+    white-space: pre;
+    padding: .25em
+}
+.ie6 code,
+.ie7 code { /*update jquery.sceditor.default.min.css*/
+    margin-top: 0
+}
+code,
+code:before { /*update jquery.sceditor.default.min.css*/
+    display: block;
+    text-align: left
+}
+blockquote { /*update jquery.sceditor.default.min.css*/
+    position: relative;
+    margin: .25em 0;
+    padding: .25em
+}
+blockquote cite { /*update jquery.sceditor.default.min.css*/
+    font-weight: 700;
+    display: block;
+    font-size: 1em;
+	margin: -0.25em -0.25em 0.25em -0.25em;
+    padding: 0.25em;
+}
+
+.flotmax {
+	position:fixed;
+	top:0;
+	left:0;
+	min-height:400px;
+	height:100%;
+	width:100%;
+	z-index:2000;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+	padding:10px;
+	overflow:auto;
+}
+
+.flotmax #trendcell {
+	height:100%;
+}
+
+.flotmax #processtrentcont2 {
+	height:92%;
+}
+
+#processtrentcont {
+	border:1px solid;
+}
+
+.legendColorBox div, div.flotmax {
+	border-radius: 0px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+}
+
+#loading {
+	text-align:center;
+}
+
+/*.records th, .overviewtable th, .records td, .overviewtable td, .recordssmall th, .recordssmall td, .divpages div div, .divpages div {
+	border:1px solid;
+}*/
+
+#reportcalform li label {
+	vertical-align:top;
+}
+
+.content #comment {
+	width:100%;
+	height:500px;
+}
+
+.wmo {
+	padding:10px;
+	margin:10px;
+}
+
+.wmo table {
+	width:100%;
+}
+
+.wmo p, .wmo ul {
+	display:none;
+}
+
+.wmo p p {
+	display:block;
+}
+
+.wmovar, .wmovar ul {
+	display:none;
+}
+
+.comment, .votes {
+	margin:10px 0px;
+	padding:10px;
+}
+
+.vote, .wmoedit, .wmoid span {
+	float:right;
+}
+
+.vote span, .wmoedit span {
+	margin:5px;
+}
+
+div.evenRow tr td, div.evenRow tr th, div.oddRow tr td, div.oddRow tr th {
+	padding:4px;
+}
+
+.subjectbody input[type="text"]{
+	width: 100%;
+}
+
+.subjectbody input[type="submit"]{
+	margin-top:10px;
+}
+
+h3 {
+	text-align:left;
+}
+
+#trendhint {
+	padding:30px;
+	text-align:center;
+}
+
+.mail span {
+	margin:0px 5px;
+}
+
+.next-news {
+	float:right;
+}
+
+.previous-news {
+	float:left;
+}
+
+.subjectbody {
+	text-align:center;
+}
+
+#navbar {
+	position: fixed;
+	left:0px;
+	display:block;
+	z-index:100;
+	width:100%;
+}
+
+#footer {
+	text-align:center;
+	margin:0px auto;
+	width:900px;
+	padding: 10px;
+}
+
+.tablesorter-row-hider {
+	display:none;
+	position:absolute;
+	padding:10px;
+	z-index:10;
+}
+
+.tablesorter-row-hider .columnselectoritem {
+	display:block;
+	padding:5px;
+}
+
+#footer ul {
+	text-indent:0px;
+	margin:10px;
+	padding:0px;
+}
+
+#footer li {
+	display:inline;
+	padding:10px;
+}
+
+#search a {
+	font-size:1.1em;
+	text-decoration:none;
+	margin:0px 10px 0px 0px;
+}
+
+#navbar div, ul.navigation {
+	font-size: 1.2em;
+	text-align:center;
+	font-weight:bold;
+	display:block;
+}
+
+.formelement {
+	margin-bottom:10px;
+}
+
+#help .notice {
+	display:block;
+}
+
+#help .notice a {
+	display:inline;
+}
+
+#changepassword {
+	float:right;
+	padding:10px;
+}
+
+#changepassword h3 {
+	margin:0px 0px 10px 0px;
+	padding:0px;
+}
+
+.password {
+	margin:10px 0px 0px 0px;
+	padding:0px;
+}
+
+.fixedwidthselect {
+	width:100px;
+}
+
+.typelist tfoot td {
+	text-align:left;
+}
+	
+.hiddenrow td {
+	display:none;
+}
+
+
+#navbar ul {
+	display:block;
+	margin:0px;
+}
+
+#navbar li {
+	display:inline;
+}
+
+#navbar ul ul {
+	display:none;
+}
+
+#navbar ul.navigation {
+	margin-top:1px;
+}
+
+#navbar a {
+	padding:10px;
+}
+
+a span, a span:hover {
+	text-decoration:none;
+}
+
+#quicknav, #userbar, #navbar ul {
+	padding:10px;
+}
+
+#quicknav {
+	position:fixed;
+	left:0px;
+}
+
+#datetimepicker, #help, #search, #bug, #subnav, #downloadmenu, #login-form {
+	position:fixed;
+	display:none;
+	z-index:999;
+	padding:10px;
+}
+
+#datetimepicker {
+	left:-9999px;
+	display:block;
+}
+
+#tooltip {
+	z-index:2001;
+}
+
+.inboxsize {
+	position:absolute;
+}
+	
+.inboxsize span {
+    font-size: 0.8em;
+    left: -8px;
+    padding: 1px 3px;
+    position: relative;
+    top: -9px;
+}
+
+#subnav {
+	width:400px;
+}
+
+#subnav ul, #downloadmenu ul {
+	list-style:none;
+	padding: 0px;
+	margin: 0px 0px 0px 5px;
+}
+
+#subnav li {
+	display:inline;
+	float:left;
+	margin:0px 15px 0px 0px;
+}
+
+#subnav div {
+	display:block;
+	clear:both;
+	padding:5px 0px;
+	font-weight:bold;
+}
+
+#subnav input[type="submit"] {
+	display:block;
+	clear:both;
+}
+
+#subnav .alarmequiphead {
+	font-weight:bold;
+	display:block;
+	float:none;
+	clear:both;
+}
+
+#subnav .alarmequiphead a {
+	float:right;
+}
+
+#help {
+	width:400px;
+}
+
+#help a {
+	display:block;
+}
+
+#help a, #help div {
+	padding-bottom:10px;
+}
+
+#help div {
+	display:none;
+}
+
+#help div div {
+	display:block;
+}
+
+#bug {
+	display:none;
+}
+
+#bug textarea {
+	width:400px;
+	height:200px;
+}
+
+#datetimepicker #startdate, #datetimepicker #enddate {
+	float:left;
+}
+
+#datetimepicker input {
+	margin-bottom:10px;
+}
+
+#datetimepicker #enddate {
+	padding-left:10px;
+}
+
+#userbar {
+	position:fixed;
+	right:0px;
+}
+
+#features {
+	float:right;
+	width:300px;
+	margin:0px 10px 10px;
+	padding:10px;
+}
+
+.tablehead {
+	padding-top:10px;
+	font-weight:bold;
+}
+
+td form, td .validateTips {
+	display:inline;
+}
+
+p {
+	text-indent:20px;
+}
+
+.messagebar {
+	padding: 5px;
+	text-align:center;
+	font-weight:bold;
+}
+
+body {
+	font-family: "Trebuchet MS", "Helvetica", "Arial",  "Verdana", "sans-serif";
+	font-size: 10pt;
+	margin:0px;
+	padding:0px;
+}
+
+a {
+	font-weight:bold;
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+#navbar a:hover {
+	text-decoration:none;
+}
+
+tfoot {
+	text-align:right;
+}
+
+#gantt {
+	width: 100%;
+	height: 500px;
+	clear:both;
+}
+
+#line, #scatter {
+	width: 100%;
+	height: 400px;
+}
+
+#overviewcontainer {
+	float:left;
+}
+
+#overview {
+	width: 590px;
+	height: 180px;
+}
+
+#overview2 {
+	width: 100%;
+	height: 150px;
+}
+
+#bar {
+	width: 100%;
+	height: 600px;
+}
+
+#processtrentcont2 {
+	width:100%;
+	height:500px;
+}
+
+.tagnameclass {
+	width:49%;
+	margin: 0px 5px 0px 0px;
+	float:left;
+}
+
+#currenttags input {
+	width:50px;
+}
+
+#savebar, #bar-settings {
+	padding:10px;
+	margin:10px 5px;
+	display:none;
+}
+
+#bar-settings form {
+	display: inline;
+}
+
+#savebar #commit {
+	float:right;
+}
+
+.tagnameclass li div {
+	margin-top:5px;
+}
+
+.tageditcell li, .tagnameclass li { 
+	margin:0px 0px 1px 0px;
+	padding:5px;
+}
+
+.tageditcell ul {
+	height:370px;
+	overflow:auto;
+}
+
+.tageditcell form, .tagnameclass form  {
+	margin:10px 0px;
+	text-align:center;
+	display:block;
+}
+
+.trenddetails, .tagnameclass form ul {
+	text-align:left;
+}
+
+.trenddetails {
+	padding:5px;
+}
+
+#trendtitle {
+	width:70%;
+	margin: 0px 0px 5px 0px;
+}
+
+#preview {
+	margin: 0px 10px 0px 0px;
+};
+
+.tageditcell form {
+	display:block;
+}
+
+.tageditcell {
+	display:none;
+	padding:5px;
+}
+
+.tageditcell a span, .tagnameclass a span {
+	float:right;
+	margin-right:10px;
+}
+
+.processcells {
+	width:230px;
+}
+
+.processtrend {
+	width:100%;
+	height:100%;
+}
+
+#trendcell {
+	height:500px;
+}
+
+#sidebar {
+	float:right;
+	width:230px;
+}
+
+#quicktrend  {
+	width:660px;
+	height:500px;
+}
+
+#quicktrendholder {
+	display:none;
+}
+
+#pyro-burner {
+	width:100%;
+	height:500px;
+}
+
+#pyro-overview, #processoverview, #fulloverview {
+	width:100%;
+	height:150px;
+}
+
+#downtimepi{
+	width: 300px;
+	height: 300px;
+	line-height: 1.1em;
+	float: left;
+	margin:10px;
+}
+
+#pielegend {
+	float:right;
+}
+
+#mainlegend {
+    float: right;
+    position: relative;
+    right: 20px;
+    top: 20px;
+    z-index: 1;
+}
+
+#minipiecontainer {
+	float:right;
+	display:inline;
+	margin:5px;
+	padding:5px;
+}
+
+#minipielegend {
+	float:right;
+}
+
+#minipie {
+	width:150px;
+	height:150px;
+	float:right;
+}
+
+#downtimestackcat {
+	width: 680px;
+	height: 500px;
+	line-height: 1.1em;
+	float: left;
+	margin-left:10px;
+}
+
+#data {
+	float:left;
+}
+
+#selector, #dates {
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	text-align: center;
+	width:180px;
+	z-index:100;
+}
+
+#datepicker, #date, #startdate, #enddate, #datepicker select, #startdate select, #enddate select, #ui-datepicker-div, #ui-datepicker-div select {
+	font-size: 0.8em;
+}
+
+.ui-datepicker-calendar td a {
+	width:1.7em;
+}
+
+#login-form {
+	width:230px;
+}
+
+#login-form  div {
+	text-align:center;
+}
+
+#login-form  p{
+	text-align:right;
+	font-size: 0.8em;
+	padding:0px;
+	margin:10px 0px 0px 0px;
+}
+
+#login-form  input[type="text"], #login-form  input[type="password"] {
+	width:200px;
+	margin-bottom:7px;
+}
+
+input[type="text"] {
+	width:120px;
+}
+
+input[type="text"].intorder {
+	width:60px;
+}
+
+#recordswap ul {
+	list-style:none;
+	margin:0px;
+	padding:10px 0px 0px 0px;
+}
+
+#recordswap span {
+	font-size:0.9em;
+}
+
+#recordswap li {
+	display:inline;
+	padding:10px;
+}
+
+#recordswap a {
+	display:inline;
+}
+
+.records, .overviewtable {
+	clear:both;
+	width:100%;
+}
+
+.recordssmall, .records, .overviewtable {
+	border-collapse:collapse;
+}
+
+.recordssmallspacing {
+	margin:0px 20px 20px 0px;
+	float:left;
+}
+
+.createform {
+	float:right;
+	padding:10px;
+	margin-left: 10px;
+}
+
+.createform h3 {
+	margin-top:0px;
+	padding-top:0px;
+}
+
+.records td, .recordssmall td, #processtrentcont2 td {
+	vertical-align:top;
+}
+
+#tagdescription {
+	padding:10px;
+	margin:10px 5px 10px 0px;
+}
+
+#buttonbar div {
+	display:inline;
+}
+
+#tooltip {
+	padding: 5px;
+}
+
+.legend table {
+	border-spacing: 5px;
+}
+
+.legend td, #legend td, #minipielegend td, #processlegend td, #pielegend td, #mainlegend td {
+	padding:2px;
+}
+
+.batchreportgraph {
+	width:100%;
+	height:300px;
+}
+
+.tableheader {
+	font-weight:bold;
+}
+
+.label {
+	text-align:center; 
+	padding:2px; 
+}
+
+.required {
+	font-size:80%;
+	font-weight:bold;
+	vertical-align: top;
+}
+
+.requiredhint {
+	clear:both;
+	text-align:right;
+	padding:10px 0px 0px 0px;
+}
+
+#legend table {
+	margin:0px auto;
+}
+
+#dynamic-totals {
+    font-size: 0.75em;
+	padding:0px 0px 0px 10px;
+}
+
+.hinttext {
+    font-size: 0.75em;
+	padding:0px 0px 0px 10px;
+}
+
+h3 .hinttext ul {
+    display:block;
+}
+
+.content {
+	margin:0px auto;
+	width: 900px;
+	padding:50px 10px 10px 10px;
+}
+
+#notifications {
+	position:fixed;
+	bottom:0px;
+	width:100%;
+	text-align:center;
+}
+
+#notifications .icon-remove-sign:hover {
+	cursor:pointer;
+}
+
+#notifications .icon-remove-sign {
+	float:right;
+}
+
+#notifications div, noscript {
+	display:inline-block;
+	margin:5px;
+	z-index:3000;
+}
+
+#notifications div, noscript div {
+	width:400px;
+	padding:5px;
+}
+
+#notifications {
+	z-index:3000;
+}
+
+#clear, .clear {
+	clear:both;
+}
+
+.clearbutton {
+	clear:both;
+	text-align:center;
+}
+
+#clear h3 {
+	margin-top:0px;
+}
+
+#resetcontainer {
+	position:relative;
+	float:right;
+}
+
+#resetcontainer a {
+	position:absolute;
+	top:-20px;
+	right:20px;
+}
+
+#datetimestampcontainer {
+	position:relative;
+}
+
+#datetimestamp {
+	position:absolute;
+	top:-20px;
+	left:20px;
+}
+
+.timestamp {
+	position:relative;
+	top:-10px;
+	font-size: 0.75em;
+}
+
+h2, h1 {
+	text-align:center;
+}
+
+h1 {
+	margin-top:0px;
+}
+
+.records th, .records td, .recordssmall th, .recordssmall td, .overviewtable th, .overviewtable td {
+	padding:4px;
+}
+
+.batchreporttable th, .batchreporttable td {
+	padding:4px 8px;
+}
+
+.emptyCell {
+	font-style:italic;
+}
+
+.pie {
+	width: 300px;
+	margin: 0 auto;
+}
+
+#unitpie {
+	width:100%;
+	height:400px;
+}
+
+#pielabelcontainer {
+	position:absolute;
+	left:0px;
+}
+
+.pielabelcontent {
+	position:relative;
+	left:320px;
+}
+
+.barlabelcontent {
+	float:right;
+}
+
+#selector input[type="submit"] {
+	width: 20%;
+}
+
+/*#department {
+	width: 77%;
+}
+
+#selector input[type="submit"], #department {
+	margin-top:5px;
+}*/
+
+.headerdiv {
+	font-weight:bold;
+}
+
+.divpages {
+	margin-bottom:10px;
+}
+
+.divpages div {
+	padding: 10px;
+}
+
+.divpages div div {
+	display:none;
+}
+
+.divpages form {
+	display:inline;
+}
+
+.icon-minus {
+	display:none;
+}
+
+#print, #go, #subnav input[type="submit"] {
+	display:block;
+	width:100%;
+}
+
+.printsafe, #unitpie, #bar, #line, #overview, #minipie, #gantt, #pyro-burner, .pie, #downtimestackcat {
+	page-break-inside:avoid;
+}
+
+.batchreporttable {
+	float:left;
+	padding-right:20px;
+}
+
+.inlineclass {
+	float:left;
+	margin-right:20px;
+	padding:10px;
+	border:1px solid;
+}
+
+.batchreportchart {
+	padding-top:1px;
+	clear:both;
+}
+
+.equiplist {
+	float:left;
+	margin:0px 40px 10px 0px;
+}
+
+.equiplist ul, .listnostyle, .tageditcell ul, .tagnameclass ul, .batchreporttable ul, .inlineclass ul {
+	list-style:none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.equiplist ul {
+	line-height:1.5em;
+}
+
+span.icon-caret-down {
+	display:none;
+}
+
+.equiplist ul ul, .wmo ul, .wmovar, .wmovar ul, .controlpanel, .batchreporttable ul ul, .inlineclass ul ul {
+	display:none;
+	list-style:none;
+	margin: 0px 10px;
+    padding: 0px 10px;
+}
+
+.equiplist ul ul ul {
+	display:block;
+}
+
+#alarmlist td {
+	padding: 5px;
+}
+
+#alarmlist {
+    margin: 0px 0px 10px 0px;
+	width:100%;
+}
+
+#release {
+	display:inline;
+	position:fixed;
+	right:20px;
+	bottom:0px;
+	padding:5px 20px;
+	margin:0px;
+}
+
+#shifter {
+	display:inline;
+	position:fixed;
+	left:20px;
+	bottom:0px;
+	padding:5px 20px;
+	margin:0px;
+}
+
+.oeeform, .oeeformcolor {
+	float:left;
+	margin-right:15px;
+}
+
+.oeeform h3, .oeeformcolor h3 {
+	display:block;
+}
+
+.oeeform select {
+	width:430px;
+}
+
+.oeeform td, .oeeform th {
+	padding-right:20px;
+}
+
+.oeeform th {
+	text-align:left;
+}
+
+.oeeformcolor select {
+	width:420px;
+}
+
+#oeegroup, #oeeauto {
+	margin-top:10px;
+	padding:10px;
+	border:1px solid;
+}
+
+#startdateoee, #enddateoee {
+	margin:0px;
+}
+
+#oeeselect{
+	margin:10px 0px;
+}
+
+#oeeadd {
+	display:none;
+}
+
+#oeecomment {
+	width:410px;
+}
+
+#submit, .centersubmit {
+	margin-top:10px;
+	text-align:center;
+	clear:both;
+}
+
+.oeesubmit {
+	clear:both;
+	padding-top:10px;
+	text-align:center;
+}
+
+#bug label, #login-form label {
+	display:block;
+	font-weight:bold;
+	margin-top:10px;
+}
+
+#ui-datepicker-div {
+	font-size:0.8em;
+}
+
+.trend-button {
+    float: left;
+    cursor: pointer;
+    padding: 3px 5px;
+    width: 16px;
+    height: 20px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    text-indent: -9999px
+}
+.ie .trend-button {
+    text-indent: 0
+}
+.ie6 .trend-button,
+.ie7 .trend-button {
+    float: none!important;
+    display: inline;
+    zoom: 1
+}
+.ie6 .trend-button {
+    padding: 0
+}
+.ie6 .trend-button div {
+    margin: 5px
+}
+.ie7 .trend-button div {
+    margin: 5px 0
+}
+.trend-button,
+.trend-button div {
+    display: block
+}
+.trend-button div {
+    margin: 2px 0;
+    padding: 0;
+    overflow: hidden;
+    line-height: 0;
+    font-size: 0;
+    color: transparent
+}
+.text .trend-button,
+.text .trend-button div,
+.trend-button.text,
+.trend-button.text div,
+.text-icon .trend-button,
+.text-icon .trend-button div,
+.trend-button.text-icon,
+.trend-button.text-icon div {
+    width: auto;
+    overflow: visible;
+    line-height: 16px;
+    font-size: 1em;
+    color: inherit;
+    text-indent: 0
+}
+.text .trend-button div,
+.trend-button.text div {
+    padding: 0 2px;
+    background: 0 0
+}
+.text-icon .trend-button div,
+.trend-button.text-icon div {
+    padding: 0 2px 0 20px
+}
+
+.trend-button div {
+    background-image: url(../images/famfamfam2.png);
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+}
+
+.trend-button-new div {
+    background-position: 0 0;
+}
+
+.trend-button-edit div {
+    background-position: 0 -16px;
+}
+
+.trend-button-open div {
+    background-position: 0 -32px;
+}
+
+.trend-button-save div {
+    background-position: 0 -48px;
+}
+
+.trend-button-pan div {
+    background-position: 0 -64px;
+}
+
+.trend-button-zoom div {
+    background-position: 0 -80px;
+}
+
+.trend-button-live div {
+    background-position: 0 -96px;
+}
+
+.trend-button-zoom-out div {
+    background-position: 0 -112px;
+}
+
+.trend-button-fullscreen div {
+    background-position: 0 -128px;
+}
+
+.trend-button-settings div {
+    background-position: 0 -144px;
+}
+
+.trend-button-mode div {
+    background-position: 0 -160px;
+}
+
+.ui-priority-secondary,
+.ui-widget-content .ui-priority-secondary,
+.ui-widget-header .ui-priority-secondary {
+	opacity: .7;
+	filter:Alpha(Opacity=70);
+}
+.ui-state-disabled,
+.ui-widget-content .ui-state-disabled,
+.ui-widget-header .ui-state-disabled {
+	opacity: .35;
+	filter:Alpha(Opacity=35);
+	background-image: none;
+}
+.ui-state-disabled .ui-icon {
+	filter:Alpha(Opacity=35); /* For IE8 - See #6059 */
+}
+
+/* Overlays */
+.ui-widget-overlay {
+	background: #aaaaaa url(images/ui-bg_flat_75_aaaaaa_40x100.png) 50% 50% repeat-x;
+	opacity: .3;
+	filter: Alpha(Opacity=30);
+}
+.ui-widget-shadow {
+	margin: 5px 0 0 5px;
+	padding: 0px;
+	background: #999999 url(images/ui-bg_flat_55_999999_40x100.png) 50% 50% repeat-x;
+	opacity: .45;
+	filter: Alpha(Opacity=45);
+	border-radius: 0px;
+}
+
+.trend-button.active,
+.sceditor-button.active,
+.trend-button:hover,
+.trend-button:active,
+.sceditor-button:hover,
+.sceditor-button:active {
+    -webkit-box-shadow: inset 1px 1px 0 rgba(0, 0, 0, .3), inset -1px 0 rgba(0, 0, 0, .3), inset 0 -1px 0 rgba(0, 0, 0, .2), inset 0 0 8px rgba(0, 0, 0, .3);
+    -moz-box-shadow: inset 1px 1px 0 rgba(0, 0, 0, .3), inset -1px 0 rgba(0, 0, 0, .3), inset 0 -1px 0 rgba(0, 0, 0, .2), inset 0 0 8px rgba(0, 0, 0, .3);
+    box-shadow: inset 1px 1px 0 rgba(0, 0, 0, .3), inset -1px 0 rgba(0, 0, 0, .3), inset 0 -1px 0 rgba(0, 0, 0, .2), inset 0 0 8px rgba(0, 0, 0, .3);
+}
+
+.trend-button.disabled div, .sceditor-button.disabled div, .nocell {
+    filter: alpha(opacity=30);
+    opacity: .3;
+}
+
+.reportscal td {
+	padding: 0px;
+	width:12.5%;
+    height: 70px;
+}
+
+
+.reportscal ul {
+	padding:4px;
+	margin:0px;
+	list-style:none;
+	filter: alpha(opacity=10);
+    opacity: 0.1;
+}
+
+.reportscal ul:hover {
+	filter: alpha(opacity=100);
+    opacity: 1;
+}
+
+.reportscal div, .reportscal .nocell {
+	text-align: right;
+	padding: 4px;
+	font-weight:bold;
+}
+
+.emphasis {
+	font-weight:bold;
+}
+
+#status {
+	width:100%;
+	height:200px;
+}
+
+.cal tr:hover td:not(.nocell), .cal tr:hover th {
+	cursor:pointer;
+}
+
+.cal td {
+    height: 70px;
+	padding:15px;
+	text-align:right;
+	width:12.5%;
+}
+
+#cal-left {
+	float:left;
+}
+
+#cal-right {
+	float:right;
+}
+
+.ui-widget-content {
+	border:1px solid;
+}
+
+div.sceditor-dropdown,
+.tablesorter-row-hider,
+div.sceditor-dropdown input,
+div.sceditor-dropdown textarea,
+div.sceditor-dropdown .button,
+.sceditor-pastetext textarea,
+.sceditor-color-option:hover {
+    border:1px solid;
+}
+
+.sceditor-more {
+    border-top: 1px solid;
+}
+
+#tasks {
+    border:1px solid;
+	padding:5px;
+	width:545px;
+}
+
+#tasks p {
+	text-indent:0px;
+	display:inline;
+}
+
+#tasks ul {
+	padding:0px;
+}
+
+#tasks li {
+	padding-left:20px;
+	display:inline;
+}
+
+div.sceditor-toolbar,
+div.sceditor-group {
+    border-bottom:1px solid;
+}
+
+blockquote cite {
+	padding:-0.25em;
+	border-bottom:1px solid;
+}
+
+#recordswap ul {
+	border-bottom:10px solid;
+}
+
+.sceditor-container,
+.sceditor-color-option {
+    border: 1px solid;
+}
+
+.ui-widget-header,
+.mail-message,
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default,
+.ui-slider,
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-highlight,
+.ui-widget-content .ui-state-highlight,
+.ui-widget-header .ui-state-highlight,
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus {
+	border:1px solid;
+}
+
+.ui-autocomplete {
+	max-height:250px;
+	overflow-y:auto;
+	overflow-x:hidden;
+}
+
+#features, #minipiecontainer, .createform, #changepassword, div.votes, #tagdescription, .trenddetails, .soaptask, #trendhint, blockquote, code, #bar-settings, #savebar, .wmo, .comment, #mailbar /*update jquery.sceditor.default.min.css*/ {
+	border:1px solid;
+}
